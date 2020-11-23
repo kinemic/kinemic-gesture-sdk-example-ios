@@ -1,0 +1,33 @@
+PODS:
+  - KinemicGesture (1.1.0-dev.22-13-g5adfdb44):
+    - KinemicGestureCore (= 1.1.0-dev.22-13-g5adfdb44)
+    - PromiseKit (~> 6.8)
+  - KinemicGestureCore (1.1.0-dev.22-13-g5adfdb44)
+  - PromiseKit (6.13.1):
+    - PromiseKit/CorePromise (= 6.13.1)
+    - PromiseKit/Foundation (= 6.13.1)
+    - PromiseKit/UIKit (= 6.13.1)
+  - PromiseKit/CorePromise (6.13.1)
+  - PromiseKit/Foundation (6.13.1):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.13.1):
+    - PromiseKit/CorePromise
+
+DEPENDENCIES:
+  - KinemicGesture (~> 1.1.0-dev.22-13-g5adfdb44)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - PromiseKit
+  https://kinemic.jfrog.io/artifactory/api/pods/cocoapods-local:
+    - KinemicGesture
+    - KinemicGestureCore
+
+SPEC CHECKSUMS:
+  KinemicGesture: c96f255f6db7e7d1a18bfa697d8a2991df0080ba
+  KinemicGestureCore: 525029e4a228add5ef8793aa0c06307162b79f2d
+  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+
+PODFILE CHECKSUM: 9dcc475fc21e283312497c419cfcf1ae33aa51e7
+
+COCOAPODS: 1.10.0

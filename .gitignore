@@ -1,0 +1,7 @@
+/build/
+/docs/
+/Pods/
+.jazzy.yaml
+
+xcuserdata
+.kinemic-gesture-sdk-example-ios/

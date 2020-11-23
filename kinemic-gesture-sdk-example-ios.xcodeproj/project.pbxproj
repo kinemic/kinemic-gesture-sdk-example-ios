@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F68FC0C24910BC1002C8E68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68FC0B24910BC1002C8E68 /* AppDelegate.swift */; };
+		1F68FC0E24910BC1002C8E68 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68FC0D24910BC1002C8E68 /* SceneDelegate.swift */; };
+		1F68FC1024910BC1002C8E68 /* BandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68FC0F24910BC1002C8E68 /* BandViewController.swift */; };
+		1F68FC1224910BC1002C8E68 /* AirmouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68FC1124910BC1002C8E68 /* AirmouseViewController.swift */; };
+		1F68FC1524910BC1002C8E68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F68FC1324910BC1002C8E68 /* Main.storyboard */; };
+		1F68FC1724910BC5002C8E68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F68FC1624910BC5002C8E68 /* Assets.xcassets */; };
+		1F68FC1A24910BC5002C8E68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F68FC1824910BC5002C8E68 /* LaunchScreen.storyboard */; };
+		1F68FC1F24911C54002C8E68 /* SingleBandEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F68FC012490DE4A002C8E68 /* SingleBandEngine.swift */; };
+		FD08E3E3752E4BDCC7725D3E /* libPods-kinemic-gesture-sdk-example-ios-storyboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79BD2C0A12B9E1FE9101C12D /* libPods-kinemic-gesture-sdk-example-ios-storyboard.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06880DB608977BC6CAE6E95A /* Pods-kinemic-gesture-sdk-example-ios-storyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinemic-gesture-sdk-example-ios-storyboard.release.xcconfig"; path = "Target Support Files/Pods-kinemic-gesture-sdk-example-ios-storyboard/Pods-kinemic-gesture-sdk-example-ios-storyboard.release.xcconfig"; sourceTree = "<group>"; };
+		1F15C919247BFFA60021E68A /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		1F68FC012490DE4A002C8E68 /* SingleBandEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleBandEngine.swift; sourceTree = "<group>"; };
+		1F68FC0924910BC1002C8E68 /* kinemic-gesture-sdk-example-ios-storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kinemic-gesture-sdk-example-ios-storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F68FC0B24910BC1002C8E68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F68FC0D24910BC1002C8E68 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F68FC0F24910BC1002C8E68 /* BandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandViewController.swift; sourceTree = "<group>"; };
+		1F68FC1124910BC1002C8E68 /* AirmouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirmouseViewController.swift; sourceTree = "<group>"; };
+		1F68FC1424910BC1002C8E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F68FC1624910BC5002C8E68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F68FC1924910BC5002C8E68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F68FC1B24910BC5002C8E68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79BD2C0A12B9E1FE9101C12D /* libPods-kinemic-gesture-sdk-example-ios-storyboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kinemic-gesture-sdk-example-ios-storyboard.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2EDF04049A85EDB1654B685 /* Pods-kinemic-gesture-sdk-example-ios-storyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinemic-gesture-sdk-example-ios-storyboard.debug.xcconfig"; path = "Target Support Files/Pods-kinemic-gesture-sdk-example-ios-storyboard/Pods-kinemic-gesture-sdk-example-ios-storyboard.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F68FC0624910BC1002C8E68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD08E3E3752E4BDCC7725D3E /* libPods-kinemic-gesture-sdk-example-ios-storyboard.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F68FC0A24910BC1002C8E68 /* kinemic-gesture-sdk-example-ios-storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				1F68FC012490DE4A002C8E68 /* SingleBandEngine.swift */,
+				1F68FC0B24910BC1002C8E68 /* AppDelegate.swift */,
+				1F68FC0D24910BC1002C8E68 /* SceneDelegate.swift */,
+				1F68FC0F24910BC1002C8E68 /* BandViewController.swift */,
+				1F68FC1124910BC1002C8E68 /* AirmouseViewController.swift */,
+				1F68FC1324910BC1002C8E68 /* Main.storyboard */,
+				1F68FC1624910BC5002C8E68 /* Assets.xcassets */,
+				1F68FC1824910BC5002C8E68 /* LaunchScreen.storyboard */,
+				1F68FC1B24910BC5002C8E68 /* Info.plist */,
+			);
+			path = "kinemic-gesture-sdk-example-ios-storyboard";
+			sourceTree = "<group>";
+		};
+		1FBC3C4E24477F5D0006A5DD = {
+			isa = PBXGroup;
+			children = (
+				1F68FC0A24910BC1002C8E68 /* kinemic-gesture-sdk-example-ios-storyboard */,
+				1FBC3C5824477F5D0006A5DD /* Products */,
+				F5AD9CB5DAEE1AA0E758A527 /* Pods */,
+				D19A3CE8E842149043501233 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1FBC3C5824477F5D0006A5DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F68FC0924910BC1002C8E68 /* kinemic-gesture-sdk-example-ios-storyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D19A3CE8E842149043501233 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F15C919247BFFA60021E68A /* NetworkExtension.framework */,
+				79BD2C0A12B9E1FE9101C12D /* libPods-kinemic-gesture-sdk-example-ios-storyboard.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5AD9CB5DAEE1AA0E758A527 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2EDF04049A85EDB1654B685 /* Pods-kinemic-gesture-sdk-example-ios-storyboard.debug.xcconfig */,
+				06880DB608977BC6CAE6E95A /* Pods-kinemic-gesture-sdk-example-ios-storyboard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F68FC0824910BC1002C8E68 /* kinemic-gesture-sdk-example-ios-storyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F68FC1C24910BC5002C8E68 /* Build configuration list for PBXNativeTarget "kinemic-gesture-sdk-example-ios-storyboard" */;
+			buildPhases = (
+				07971A6BED7ADC0CCDF3B2BC /* [CP] Check Pods Manifest.lock */,
+				1F68FC0524910BC1002C8E68 /* Sources */,
+				1F68FC0624910BC1002C8E68 /* Frameworks */,
+				1F68FC0724910BC1002C8E68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "kinemic-gesture-sdk-example-ios-storyboard";
+			productName = "kinemic-gesture-sdk-example-ios-storyboard";
+			productReference = 1F68FC0924910BC1002C8E68 /* kinemic-gesture-sdk-example-ios-storyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FBC3C4F24477F5D0006A5DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = kinemic;
+				TargetAttributes = {
+					1F68FC0824910BC1002C8E68 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 1FBC3C5224477F5D0006A5DD /* Build configuration list for PBXProject "kinemic-gesture-sdk-example-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FBC3C4E24477F5D0006A5DD;
+			productRefGroup = 1FBC3C5824477F5D0006A5DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F68FC0824910BC1002C8E68 /* kinemic-gesture-sdk-example-ios-storyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F68FC0724910BC1002C8E68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F68FC1A24910BC5002C8E68 /* LaunchScreen.storyboard in Resources */,
+				1F68FC1724910BC5002C8E68 /* Assets.xcassets in Resources */,
+				1F68FC1524910BC1002C8E68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07971A6BED7ADC0CCDF3B2BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-kinemic-gesture-sdk-example-ios-storyboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F68FC0524910BC1002C8E68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F68FC1224910BC1002C8E68 /* AirmouseViewController.swift in Sources */,
+				1F68FC1F24911C54002C8E68 /* SingleBandEngine.swift in Sources */,
+				1F68FC1024910BC1002C8E68 /* BandViewController.swift in Sources */,
+				1F68FC0C24910BC1002C8E68 /* AppDelegate.swift in Sources */,
+				1F68FC0E24910BC1002C8E68 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F68FC1324910BC1002C8E68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F68FC1424910BC1002C8E68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F68FC1824910BC5002C8E68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F68FC1924910BC5002C8E68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F68FC1D24910BC5002C8E68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2EDF04049A85EDB1654B685 /* Pods-kinemic-gesture-sdk-example-ios-storyboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8A3R3VN79;
+				INFOPLIST_FILE = "kinemic-gesture-sdk-example-ios-storyboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.kinemic.kinemic-gesture-sdk-example-ios-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F68FC1E24910BC5002C8E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06880DB608977BC6CAE6E95A /* Pods-kinemic-gesture-sdk-example-ios-storyboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8A3R3VN79;
+				INFOPLIST_FILE = "kinemic-gesture-sdk-example-ios-storyboard/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.kinemic.kinemic-gesture-sdk-example-ios-storyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1FBC3C6924477F600006A5DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1FBC3C6A24477F600006A5DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F68FC1C24910BC5002C8E68 /* Build configuration list for PBXNativeTarget "kinemic-gesture-sdk-example-ios-storyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F68FC1D24910BC5002C8E68 /* Debug */,
+				1F68FC1E24910BC5002C8E68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FBC3C5224477F5D0006A5DD /* Build configuration list for PBXProject "kinemic-gesture-sdk-example-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FBC3C6924477F600006A5DD /* Debug */,
+				1FBC3C6A24477F600006A5DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FBC3C4F24477F5D0006A5DD /* Project object */;
+}

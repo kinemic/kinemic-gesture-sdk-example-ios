@@ -7,6 +7,6 @@ target 'kinemic-gesture-sdk-example-ios-storyboard' do
   # Comment the next line if you don't want to use dynamic frameworks
   # use_frameworks!
 
-  pod 'KinemicGestureCore', :http => 'https://repo.kinemic.com/repository/cocoapods-raw/KinemicGestureCore-1.1.0-dev.22-13-g5adfdb44.tar.gz'
-  pod 'KinemicGesture', :http => 'https://repo.kinemic.com/repository/cocoapods-raw/KinemicGesture-1.1.0-dev.22-13-g5adfdb44.tar.gz'
+  pod 'KinemicGestureCore', :http => 'https://repo.kinemic.com/repository/cocoapods-raw/KinemicGestureCore/KinemicGestureCore-1.1.0-dev.22-13-g5adfdb44.tar.gz'
+  pod 'KinemicGesture', :http => 'https://repo.kinemic.com/repository/cocoapods-raw/KinemicGesture/KinemicGesture-1.1.0-dev.22-13-g5adfdb44.tar.gz'
 end

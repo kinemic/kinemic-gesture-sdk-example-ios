@@ -3,19 +3,19 @@ PODS:
     - KinemicGestureCore (= 1.1.0-dev.22-13-g5adfdb44)
     - PromiseKit (~> 6.8)
   - KinemicGestureCore (1.1.0-dev.22-13-g5adfdb44)
-  - PromiseKit (6.11.0):
-    - PromiseKit/CorePromise (= 6.11.0)
-    - PromiseKit/Foundation (= 6.11.0)
-    - PromiseKit/UIKit (= 6.11.0)
-  - PromiseKit/CorePromise (6.11.0)
-  - PromiseKit/Foundation (6.11.0):
+  - PromiseKit (6.15.3):
+    - PromiseKit/CorePromise (= 6.15.3)
+    - PromiseKit/Foundation (= 6.15.3)
+    - PromiseKit/UIKit (= 6.15.3)
+  - PromiseKit/CorePromise (6.15.3)
+  - PromiseKit/Foundation (6.15.3):
     - PromiseKit/CorePromise
-  - PromiseKit/UIKit (6.11.0):
+  - PromiseKit/UIKit (6.15.3):
     - PromiseKit/CorePromise
 
 DEPENDENCIES:
-  - "KinemicGesture (from `{:http=>\"https://repo.kinemic.com/repository/cocoapods-raw/KinemicGesture-1.1.0-dev.22-13-g5adfdb44.tar.gz\"}`)"
-  - "KinemicGestureCore (from `{:http=>\"https://repo.kinemic.com/repository/cocoapods-raw/KinemicGestureCore-1.1.0-dev.22-13-g5adfdb44.tar.gz\"}`)"
+  - "KinemicGesture (from `{:http=>\"https://repo.kinemic.com/repository/cocoapods-raw/KinemicGesture/KinemicGesture-1.1.0-dev.22-13-g5adfdb44.tar.gz\"}`)"
+  - "KinemicGestureCore (from `{:http=>\"https://repo.kinemic.com/repository/cocoapods-raw/KinemicGestureCore/KinemicGestureCore-1.1.0-dev.22-13-g5adfdb44.tar.gz\"}`)"
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs:
@@ -23,21 +23,21 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   KinemicGesture:
-    :http: https://repo.kinemic.com/repository/cocoapods-raw/KinemicGesture-1.1.0-dev.22-13-g5adfdb44.tar.gz
+    :http: https://repo.kinemic.com/repository/cocoapods-raw/KinemicGesture/KinemicGesture-1.1.0-dev.22-13-g5adfdb44.tar.gz
   KinemicGestureCore:
-    :http: https://repo.kinemic.com/repository/cocoapods-raw/KinemicGestureCore-1.1.0-dev.22-13-g5adfdb44.tar.gz
+    :http: https://repo.kinemic.com/repository/cocoapods-raw/KinemicGestureCore/KinemicGestureCore-1.1.0-dev.22-13-g5adfdb44.tar.gz
 
 CHECKOUT OPTIONS:
   KinemicGesture:
-    :http: https://repo.kinemic.com/repository/cocoapods-raw/KinemicGesture-1.1.0-dev.22-13-g5adfdb44.tar.gz
+    :http: https://repo.kinemic.com/repository/cocoapods-raw/KinemicGesture/KinemicGesture-1.1.0-dev.22-13-g5adfdb44.tar.gz
   KinemicGestureCore:
-    :http: https://repo.kinemic.com/repository/cocoapods-raw/KinemicGestureCore-1.1.0-dev.22-13-g5adfdb44.tar.gz
+    :http: https://repo.kinemic.com/repository/cocoapods-raw/KinemicGestureCore/KinemicGestureCore-1.1.0-dev.22-13-g5adfdb44.tar.gz
 
 SPEC CHECKSUMS:
   KinemicGesture: b000cfe48c959b33359fdb1492a5ac502683a40e
   KinemicGestureCore: 92de879639d6f8451d5600c32b1b901ab0f7da32
-  PromiseKit: e4863d06976e7dee5e41c04fc7371c16b3600292
+  PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
 
-PODFILE CHECKSUM: 21cfe6866131a4d68d235f199eede423f81206e4
+PODFILE CHECKSUM: 8f72366a77c08ffdc958f55dc4f0a480d6b6b43a
 
 COCOAPODS: 1.11.2

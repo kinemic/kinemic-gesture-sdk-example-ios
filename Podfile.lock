@@ -3,31 +3,41 @@ PODS:
     - KinemicGestureCore (= 1.1.0-dev.22-13-g5adfdb44)
     - PromiseKit (~> 6.8)
   - KinemicGestureCore (1.1.0-dev.22-13-g5adfdb44)
-  - PromiseKit (6.13.1):
-    - PromiseKit/CorePromise (= 6.13.1)
-    - PromiseKit/Foundation (= 6.13.1)
-    - PromiseKit/UIKit (= 6.13.1)
-  - PromiseKit/CorePromise (6.13.1)
-  - PromiseKit/Foundation (6.13.1):
+  - PromiseKit (6.15.3):
+    - PromiseKit/CorePromise (= 6.15.3)
+    - PromiseKit/Foundation (= 6.15.3)
+    - PromiseKit/UIKit (= 6.15.3)
+  - PromiseKit/CorePromise (6.15.3)
+  - PromiseKit/Foundation (6.15.3):
     - PromiseKit/CorePromise
-  - PromiseKit/UIKit (6.13.1):
+  - PromiseKit/UIKit (6.15.3):
     - PromiseKit/CorePromise
 
 DEPENDENCIES:
-  - KinemicGesture (~> 1.1.0-dev.22-13-g5adfdb44)
+  - "KinemicGesture (from `{:http=>\"https://repo.kinemic.com/repository/cocoapods-raw/KinemicGesture/KinemicGesture-1.1.0-dev.22-13-g5adfdb44.tar.gz\"}`)"
+  - "KinemicGestureCore (from `{:http=>\"https://repo.kinemic.com/repository/cocoapods-raw/KinemicGestureCore/KinemicGestureCore-1.1.0-dev.22-13-g5adfdb44.tar.gz\"}`)"
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/CocoaPods/Specs:
     - PromiseKit
-  https://kinemic.jfrog.io/artifactory/api/pods/cocoapods-local:
-    - KinemicGesture
-    - KinemicGestureCore
+
+EXTERNAL SOURCES:
+  KinemicGesture:
+    :http: https://repo.kinemic.com/repository/cocoapods-raw/KinemicGesture/KinemicGesture-1.1.0-dev.22-13-g5adfdb44.tar.gz
+  KinemicGestureCore:
+    :http: https://repo.kinemic.com/repository/cocoapods-raw/KinemicGestureCore/KinemicGestureCore-1.1.0-dev.22-13-g5adfdb44.tar.gz
+
+CHECKOUT OPTIONS:
+  KinemicGesture:
+    :http: https://repo.kinemic.com/repository/cocoapods-raw/KinemicGesture/KinemicGesture-1.1.0-dev.22-13-g5adfdb44.tar.gz
+  KinemicGestureCore:
+    :http: https://repo.kinemic.com/repository/cocoapods-raw/KinemicGestureCore/KinemicGestureCore-1.1.0-dev.22-13-g5adfdb44.tar.gz
 
 SPEC CHECKSUMS:
-  KinemicGesture: c96f255f6db7e7d1a18bfa697d8a2991df0080ba
-  KinemicGestureCore: 525029e4a228add5ef8793aa0c06307162b79f2d
-  PromiseKit: 28fda91c973cc377875d8c0ea4f973013c05b6db
+  KinemicGesture: b000cfe48c959b33359fdb1492a5ac502683a40e
+  KinemicGestureCore: 92de879639d6f8451d5600c32b1b901ab0f7da32
+  PromiseKit: 3b2b6995e51a954c46dbc550ce3da44fbfb563c5
 
-PODFILE CHECKSUM: 9dcc475fc21e283312497c419cfcf1ae33aa51e7
+PODFILE CHECKSUM: 8f72366a77c08ffdc958f55dc4f0a480d6b6b43a
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.2
